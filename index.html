@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CGPA Calculator</title>
+</head>
+<body>
+  
+    <div class="calculator">
+        <br><h1>CGPA Calculator</h1><br>
+        <br><h3>CP</h3><br>
+        <div class="subject-container">
+            <div class="subject">
+                <label for="a1">CP CT Marks:</label>
+                <input type="text" id="a1" placeholder="Marks">
+            </div>
+            <div class="subject">
+                <label for="a2">CP Sessionals Marks:</label>
+                <input type="text" id="a2" placeholder="Marks">
+            </div>
+           
+            <div class="subject">
+                <label for="a3">CP Assignment Marks:</label>
+                <input type="text" id="a3" placeholder="Marks">
+            </div>
+
+            <div class="subject">
+                <label for="a4">CP LPW Exam Marks:</label>
+                <input type="text" id="a4" placeholder="Marks">
+            </div>
+
+            <div class="subject">
+                <label for="a5">CP Lab Practical Marks:</label>
+                <input type="text" id="a5" placeholder="Marks">
+            </div>
+
+            
+            <div class="subject">
+                <label for="a6">CP SEE Marks section1:</label>
+                <input type="text" id="a6" placeholder="Marks">
+            </div>
+
+            <div class="subject">
+                <label for="a7">CP SEE Marks section2:</label>
+                <input type="text" id="a7" placeholder="Marks">
+            </div>
+
+            <br>
+        </div>
+
+<!-- (a1+a2+a4)*0.4 + (a5+a6)*0.2  + (a6)*0.4   with practical --> 
+<!-- (a1+a2+a4)*0.6 + (a6)*0.4  without practical -->
+
+
+
+
+        <br><h3>IWP</h3><br>
+        <div class="subject-container">
+            
+            <div class="subject">
+                <label for="b1">IWP CT Marks:</label>
+                <input type="text" id="b1" placeholder="Marks">
+            </div>
+            <div class="subject">
+                <label for="b2">IWP Sessionals Marks:</label>
+                <input type="text" id="b2" placeholder="Marks">
+            </div>
+            <div class="subject">
+                <label for="b3">IWP Assignment Marks:</label>
+                <input type="text" id="b3" placeholder="Marks">
+            </div>
+
+            <div class="subject">
+                <label for="b4">IWP LPW Exam Marks(40):</label>
+                <input type="text" id="b4" placeholder="Marks">
+            </div>
+           
+            <div class="subject">
+                <label for="b5">IWP Lab Practical Marks(100):</label>
+                <input type="text" id="b5" placeholder="Marks">
+            </div>
+            <div class="subject">
+                <label for="b6">IWP SEE Marks Section1:</label>
+                <input type="text" id="b6" placeholder="Marks">
+            </div>
+            <div class="subject">
+                <label for="b7">IWP SEE Marks Section2:</label>
+                <input type="text" id="b7" placeholder="Marks">
+            </div>
+        </div>
+
+
+        <br><h3>Statistics</h3><br>
+        <div class="subject-container">
+            <div class="subject">
+                <label for="c1">Statistics CT Marks:</label>
+                <input type="text" id="c1" placeholder="Marks">
+            </div>
+            <div class="subject">
+                <label for="c2">Statistics Sessionals Marks:</label>
+                <input type="text" id="c2" placeholder="Marks">
+            </div>
+
+            <div class="subject">
+                <label for="c3">Statistics Assignment Marks:</label>
+                <input type="text" id="c3" placeholder="Marks">
+            </div>
+
+            <div class="subject">
+                <label for="c4">Statistics LPW Exam Marks:</label>
+                <input type="text" id="c4" placeholder="Marks">
+            </div>
+           
+            <div class="subject">
+                <label for="c5">Statistics Lab Practical Marks:</label>
+                <input type="text" id="c5" placeholder="Marks">
+            </div>
+            <div class="subject">
+                <label for="c6">Statistics SEE Marks Section1:</label>
+                <input type="text" id="c6" placeholder="Marks">
+            </div>
+            <div class="subject">
+                <label for="c7">Statistics SEE Marks Section2:</label>
+                <input type="text" id="c7" placeholder="Marks">
+            </div>
+        </div>
+
+
+
+        <br><h3>ED</h3><br>
+        <div class="subject-container">
+            <div class="subject">
+                <label for="d1">ED CT Marks:</label>
+                <input type="text" id="d1" placeholder="Marks">
+            </div>
+            <div class="subject">
+                <label for="d2">ED Sessionals Marks:</label>
+                <input type="text" id="d2" placeholder="Marks">
+            </div>
+            <div class="subject">
+                <label for="d3">ED LPW Exam Marks:</label>
+                <input type="text" id="d3" placeholder="Marks">
+            </div>
+            <div class="subject">
+                <label for="d4">ED Assignment Marks:</label>
+                <input type="text" id="d4" placeholder="Marks">
+            </div>
+            <div class="subject">
+                <label for="d5">ED Lab Practical Marks Workshop:</label>
+                <input type="text" id="d5" placeholder="Marks">
+            </div>
+            <div class="subject">
+                <label for="d6">ED Lab Practical Autocad:</label>
+                <input type="text" id="d6" placeholder="Marks">
+            </div>
+        </div>
+
+
+
+        <br><h3>Maths</h3><br>
+        <div class="subject-container">
+            <div class="subject">
+                <label for="e1">Maths CT Marks:</label>
+                <input type="text" id="e1" placeholder="Marks">
+            </div>
+            <div class="subject">
+                <label for="e2">Maths Sessionals Marks:</label>
+                <input type="text" id="e2" placeholder="Marks">
+            </div>
+          
+            <div class="subject">
+                <label for="e3">Maths Assignment Marks:</label>
+                <input type="text" id="e3" placeholder="Marks">
+            </div>
+
+            <div class="subject">
+                <label for="e4">Maths SEE Marks Section1:</label>
+                <input type="text" id="e4" placeholder="Marks">
+            </div>
+
+            <div class="subject">
+                <label for="e5">Maths SEE Marks Section2 :</label>
+                <input type="text" id="e5" placeholder="Marks">
+            </div>
+        </div>
+
+
+        
+        <br><h3>Written Communication</h3><br>
+        <div class="subject-container">
+            <div class="subject">
+                <label for="f1">Written Communication CT Marks:</label>
+                <input type="text" id="f1" placeholder="Marks">
+            </div>
+            <div class="subject">
+                <label for="f2">Written Communication Sessionals Marks:</label>
+                <input type="text" id="f2" placeholder="Marks">
+            </div>
+            <div class="subject">
+                <label for="f3">Written Communication Assignment Marks:</label>
+                <input type="text" id="f3" placeholder="Marks">
+            </div>
+            <div class="subject">
+                <label for="f4">Written Communication SEE Marks Section1:</label>
+                <input type="text" id="f4" placeholder="Marks">
+            </div>
+            <div class="subject">
+                <label for="f5">Written Communication SEE Marks Section2:</label>
+                <input type="text" id="f5" placeholder="Marks">
+            </div>
+        </div>
+
+
+
+
+        <br><h3>Contemporary india</h3><br>
+        <div class="subject-container">
+            <div class="subject">
+                <label for="g1">Contemporary India CT Marks:</label>
+                <input type="text" id="g1" placeholder="Marks">
+            </div>
+            <div class="subject">
+                <label for="g2">Contemporary India Sessionals Marks:</label>
+                <input type="text" id="g2" placeholder="Marks">
+            </div>
+          
+            <div class="subject">
+                <label for="g3">Contemporary India Assignment Marks:</label>
+                <input type="text" id="g3" placeholder="Marks">
+            </div>
+            
+            <div class="subject">
+                <label for="g4">Contemporary India SEE Marks Section1:</label>
+                <input type="text" id="g4" placeholder="Marks">
+            </div>
+
+            <div class="subject">
+                <label for="g5">Contemporary India SEE Marks Section2:</label>
+                <input type="text" id="g5" placeholder="Marks">
+            </div>
+        </div>
+
+        <button onclick="calculateCGPA()">Calculate CGPA</button>
+        <!-- Add these lines in the HTML file where you want to display the grades -->
+<p id="CP"> CP Grade: -</p>
+<p id="IWP"> IWP Grade: -</p>
+<p id="Statistics"> Statistics Grade: -</p>
+<p id="ED"> ED Grade: -</p>
+<p id="Maths"> Maths Grade: -</p>
+<p id="Written Communication">Written Communication Grade: -</p>
+<p id="Contemporary India">Contemporary India Grade: -</p>
+
+        <p id="result">Your CGPA: <span id="cgpa">-</span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
